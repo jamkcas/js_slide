@@ -1,0 +1,63 @@
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: block;
+  width: 1200px;
+  margin: auto;
+  height: 100vh;
+}
+
+.puppyContainer {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.pictures {
+  display: block;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  -moz-transition: right 0.4s;
+  -webkit-transition: right 0.4s;
+  -ms-transition: right 0.4s;
+  -o-transition: right 0.4s;
+  transition: right 0.4s;
+}
+
+#pic1 {
+  right: 0;
+  z-index: 1;
+}
+
+#pic2 {
+  right: 0;
+  z-index: -1;
+}
+
+.buttons {
+  margin: auto;
+  width: 30%;
+  text-align: center;
+}
+
+.arrows {
+  z-index: 100;
+  position: absolute;
+  top: 100px;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+  border: 1px solid black;
+  padding: 5px;
+  background: white;
+}
+
+.right {
+  right: 0;
+}
